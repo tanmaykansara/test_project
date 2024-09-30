@@ -16,7 +16,7 @@ dag_id = 'demo_project_airfow'
 dag_display_name = 'Demo Dag for Public View'
 dag_schedule_interval = '@daily'
 dag_tags = ['poc', 'sample_project']
-
+task1_name = 'Ingest Stock qotes'
 owner_links = {'TanmayKansara': 'mailto:tanmay.kansara@gmail.com'}
 
 task_execution_timeout = 3600
@@ -54,6 +54,7 @@ except Exception as ex:
 @dag(
     dag_id=dag_id,
     description=dag_description,
+    dag_display_name=dag_display_name,
     schedule_interval=dag_schedule_interval,
     catchup=False,
     tags=dag_tags,
@@ -64,7 +65,7 @@ except Exception as ex:
 )
 
 def demo_project_tasks():
-    @task()
+    @task(task_display_name = task1_name)
     def ingest_data():
         logger.info("In Ingest Task")
         try:
@@ -78,5 +79,7 @@ def demo_project_tasks():
             logger.error("Error encountered in Ingest call")
             #further processing of error/reporting
     
-    ingest_data()
+
+    stock_symbol = ingest_data()
+    get_quote = someOperator.partial(task_id="quote_data").expand(quote_objects=stock_symbol)
 demo_project_tasks()

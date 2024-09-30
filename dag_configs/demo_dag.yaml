@@ -7,3 +7,4 @@ task_execution_timeout: 3600
 display_name: Demo Dag for Public View
 owner_links: { "TanmayKansara": "mailto:tanmay.kansara@gmail.com" }
 test_url: http://echo.jsontest.com/apple/aapl/google/goog
+task_ingest_name: Ingest Stock qotes
