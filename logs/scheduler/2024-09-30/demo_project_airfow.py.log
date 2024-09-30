@@ -3259,3 +3259,39 @@ SyntaxError: invalid syntax
 [2024-09-30T23:41:56.442+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:41:56.442+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2024-09-30T23:41:56.466+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:41:56.466+0000] {dag.py:3947} INFO - Setting next_dagrun for demo_project_airfow to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
 [2024-09-30T23:41:56.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo_project_airfow.py took 0.148 seconds
+[2024-09-30T23:42:26.657+0000] {processor.py:161} INFO - Started process (PID=1068) to work on /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:42:26.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo_project_airfow.py for tasks to queue
+[2024-09-30T23:42:26.661+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:26.660+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:42:26.689+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:26.689+0000] {demo_project_airfow.py:31} INFO - environment_name:dev
+[2024-09-30T23:42:26.691+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:26.691+0000] {demo_project_airfow.py:42} INFO - In Dev
+[2024-09-30T23:42:26.702+0000] {processor.py:840} INFO - DAG(s) 'demo_project_airfow' retrieved from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:42:26.725+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:26.725+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-30T23:42:26.752+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:26.751+0000] {dag.py:3947} INFO - Setting next_dagrun for demo_project_airfow to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-09-30T23:42:26.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo_project_airfow.py took 0.126 seconds
+[2024-09-30T23:42:56.826+0000] {processor.py:161} INFO - Started process (PID=1075) to work on /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:42:56.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo_project_airfow.py for tasks to queue
+[2024-09-30T23:42:56.831+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:56.830+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:42:56.864+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:56.864+0000] {demo_project_airfow.py:31} INFO - environment_name:dev
+[2024-09-30T23:42:56.866+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:56.866+0000] {demo_project_airfow.py:42} INFO - In Dev
+[2024-09-30T23:42:56.879+0000] {processor.py:840} INFO - DAG(s) 'demo_project_airfow' retrieved from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:42:56.903+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:56.902+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-30T23:42:56.933+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:42:56.933+0000] {dag.py:3947} INFO - Setting next_dagrun for demo_project_airfow to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-09-30T23:42:56.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo_project_airfow.py took 0.144 seconds
+[2024-09-30T23:43:27.138+0000] {processor.py:161} INFO - Started process (PID=1082) to work on /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:43:27.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo_project_airfow.py for tasks to queue
+[2024-09-30T23:43:27.141+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:27.141+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:43:27.170+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:27.170+0000] {demo_project_airfow.py:31} INFO - environment_name:dev
+[2024-09-30T23:43:27.172+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:27.172+0000] {demo_project_airfow.py:42} INFO - In Dev
+[2024-09-30T23:43:27.182+0000] {processor.py:840} INFO - DAG(s) 'demo_project_airfow' retrieved from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:43:27.202+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:27.202+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-30T23:43:27.227+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:27.226+0000] {dag.py:3947} INFO - Setting next_dagrun for demo_project_airfow to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-09-30T23:43:27.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo_project_airfow.py took 0.116 seconds
+[2024-09-30T23:43:57.318+0000] {processor.py:161} INFO - Started process (PID=1089) to work on /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:43:57.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo_project_airfow.py for tasks to queue
+[2024-09-30T23:43:57.322+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:57.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:43:57.358+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:57.358+0000] {demo_project_airfow.py:31} INFO - environment_name:dev
+[2024-09-30T23:43:57.360+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:57.360+0000] {demo_project_airfow.py:42} INFO - In Dev
+[2024-09-30T23:43:57.371+0000] {processor.py:840} INFO - DAG(s) 'demo_project_airfow' retrieved from /opt/airflow/dags/demo_project_airfow.py
+[2024-09-30T23:43:57.392+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:57.392+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-30T23:43:57.418+0000] {logging_mixin.py:188} INFO - [2024-09-30T23:43:57.418+0000] {dag.py:3947} INFO - Setting next_dagrun for demo_project_airfow to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-09-30T23:43:57.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo_project_airfow.py took 0.144 seconds
