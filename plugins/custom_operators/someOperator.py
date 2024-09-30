@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 class someOperator(BaseOperator):
     
     template_fields = ["quote_objects"]
-    def __init__(self, quote_objects: list, **kwargs):
+    def __init__(self, quote_objects, **kwargs):
         super().__init__(**kwargs)
         self.quote_objects = quote_objects
 
