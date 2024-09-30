@@ -1,0 +1,9 @@
+dag_id: demo_project_airfow
+dag_description: Sample Demo project to show how Airflow works
+dag_tags: ['poc', 'sample_project'] 
+dag_schedule: '@daily'
+dag_template: demo_dag
+task_execution_timeout: 3600
+display_name: Demo Dag for Public View
+owner_links: { "TanmayKansara": "mailto:tanmay.kansara@gmail.com" }
+test_url: http://echo.jsontest.com/apple/aapl/google/goog
