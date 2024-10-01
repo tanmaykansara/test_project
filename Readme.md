@@ -25,5 +25,6 @@ Once the dag is created, the UI will pick up the new code. Upon executing the jo
 
 The above snippet shows that 1 Ingest task is created and 2 Get data tasks are dynamically created based on the ingest URL. If the ingest URL returned more records, the number of tasks would increase proportionately. 
 
+Below is a sample high level schema on how the data could be stored. 
 ![sample_demo drawio](https://github.com/user-attachments/assets/8d0173fb-66b9-45f5-aae9-15fadbb9ef76)
 
