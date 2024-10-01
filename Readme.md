@@ -21,5 +21,9 @@ We are using Yaml config files and Jinja template to dynamically create tasks at
 
 Once the dag is created, the UI will pick up the new code. Upon executing the job we will see that the dag creates 2 dynamic tasks for each of the stock quote for Hardcoded URL in the config file.
 
+![image](https://github.com/user-attachments/assets/b5d39373-f85c-4cd2-852b-87b9b187d988)
+
+The above snippet shows that 1 Ingest task is created and 2 Get data tasks are dynamically created based on the ingest URL. If the ingest URL returned more records, the number of tasks would increase proportionately. 
+
 ![sample_demo drawio](https://github.com/user-attachments/assets/8d0173fb-66b9-45f5-aae9-15fadbb9ef76)
 
